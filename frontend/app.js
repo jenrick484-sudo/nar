@@ -1,4 +1,4 @@
-const backendUrl = 'https://narva-backend.onrender.com/api';
+const backendUrl = 'https://back-kye2.onrender.com';
 
 document.getElementById('salesForm').addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -35,4 +35,5 @@ async function loadTotal() {
 }
 
 loadSales();
+
 loadTotal();
